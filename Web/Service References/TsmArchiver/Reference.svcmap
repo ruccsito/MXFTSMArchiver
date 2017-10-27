@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="61ab1db5-b640-439c-a7bf-9e47e22a08b3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.220.216.50:11001/TSMarchiver/?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="ba9f5e93-0390-4588-9ead-0e2fbf6f9e58" SourceId="1" SourceUrl="http://10.220.216.50:11001/TSMarchiver/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="8ccecb0a-a529-4f8a-9de5-87d9e836fde2" SourceId="1" SourceUrl="http://10.220.216.50:11001/TSMarchiver/?xsd=xsd1" />
+    <MetadataFile FileName="MxfServerTSMarchiverWebService.wsdl" MetadataType="Wsdl" ID="5b8ee131-501b-41b5-9f76-fecca594787b" SourceId="1" SourceUrl="http://10.220.216.50:11001/TSMarchiver/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="38a51c0f-009f-4a18-93f6-925e375ea5a9" SourceId="1" SourceUrl="http://10.220.216.50:11001/TSMarchiver/?xsd=xsd3" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="31b42c27-dfbc-4be2-af55-1bde1d3d54c7" SourceId="1" SourceUrl="http://10.220.216.50:11001/TSMarchiver/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

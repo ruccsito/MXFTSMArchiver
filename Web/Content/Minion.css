@@ -1,0 +1,12 @@
+﻿/*.container {
+    margin: auto;
+    max-width: 250px;
+}*/
+
+.card {
+    margin-top: 5%;
+}
+
+.form {
+    max-width: 30%;
+}

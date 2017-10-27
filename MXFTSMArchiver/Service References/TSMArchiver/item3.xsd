@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://filmpartners.nl/TSMarchiver/" elementFormDefault="qualified" targetNamespace="http://filmpartners.nl/TSMarchiver/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="doArchiveProject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProjectID" type="xs:int" />
+        <xs:element minOccurs="0" name="StartTimestamp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ClientID" type="xs:int" />
+        <xs:element minOccurs="0" name="deleteFiles" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="doArchiveProjectResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="doRetreiveProject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProjectID" type="xs:int" />
+        <xs:element minOccurs="0" name="StartTimestamp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ClientID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="doRetreiveProjectResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Archive project
+    </div>
+    <div class="card-body">
+        <div class="col-md-4 offset-md-4">
+            <form action="~/Tsm/Archive" method="post" name="retrieve" id="retrieve">
+                <div class="form-group text-center">
+                    <label for="projectId">Project ID</label>
+                    <input type="text" class="form-control" id="projectId" name="projectId" aria-describedby="retrieveHelp" placeholder="">
+                    <small id="retrieveHelp" class="form-text text-muted text-center">Use project ID, only numbers..</small>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Archive</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Retrieve project
+    </div>
+    <div class="card-body">
+        <div class="col-md-4 offset-md-4">
+            <form action="~/Tsm/Retrieve" method="post" name="retrieve" id="retrieve">
+                <div class="form-group text-center">
+                    <label for="projectId">Project ID</label>
+                    <input type="text" class="form-control" id="projectId" name="projectId" aria-describedby="retrieveHelp" placeholder="">
+                    <small id="retrieveHelp" class="form-text text-muted text-center">Use project ID, only numbers..</small>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Retrieve</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-header">
+        Last 20 transactions
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Submitted</th>
+                    <th scope="col">Completed</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>ffsd</td>
+                    <td>dasdfo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
